@@ -1,6 +1,7 @@
 # Hi, my name is Bucur Andrei, I am a Frontend Developer and this is my projects list.
 
-## To do app -> https://tabask0.github.io/TodoApp
+## [To do App] 
+> (https://tabask0.github.io/TodoApp)
 
 ## Stan Boutique -> https://tabask0.github.io/StanBoutique/
 
