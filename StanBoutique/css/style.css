@@ -1,0 +1,38 @@
+h1{
+    color: rgb(21, 174, 212);
+}
+h3 {
+    color: rgb(33, 190, 230);
+}
+.product-title {
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title-brand {
+    font-family: 'Indie Flower', cursive;
+}
+hr {
+    width: 50%;
+    background-color: #f0f0f0;
+    float: center;
+}
+.margin-copy {
+    margin-left: 60px;
+}
+.buton-nav {
+    padding-inline: 15px;
+    width: 85px;
+}
+
+li:hover {
+    color: orange;
+    transition-property: inherit;
+}
+
+.stanForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

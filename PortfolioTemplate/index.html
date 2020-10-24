@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucur Andrei | Frontend Developer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c12afa5134.js" crossorigin="anonymous"></script>
+    <style>
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+    <header>
+        
+        <div class="container">
+            <nav>
+                <div class="nav-brand">
+                    <a href="./index.html">
+                        <img src="./images/logo.png" alt="logo" style="width: 630px; height: 30px;">
+                    </a>
+                </div>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#landing-page">
+                            <img src="images/profile.jpg" alt="Bucur Andrei" class="profile-pic nav-link">
+                            <span class="caption nav-link">Bucur Andrei</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/andrei-bucur-258ab2182/" target="_blank" class="nav-link"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/tabask0" target=" _blank" class="nav-link"><i class="fa fa-github"></i></a>
+                        <a href="mailto:bucur37@gmail.com" target="_blank" class="nav-link"><i class="fa fa-envelope"></i></a>
+                    </li>
+                    <div class="cta">
+                        <a href="./CV-BucurAndrei.pdf" class="btn nav-link">My CV!</a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="landing-page" class="landing-page">
+            <div class="container">
+                <div class="main-message">
+                    <h2>Bucur Andrei</h2>
+                    <h3>{ Front-end Developer }</h3>
+                    <p>HTML . CSS . JavaScript . Angular . Node</p>
+                    <div class="intro-btn">
+                        <div class="cta">
+                            <a href="#contact" class="btn">Contact me!</a>
+                        </div>
+                        <div class="cta">
+                            <a href="#projects" class="btn">My projects</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#about" class="scroll-down"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+        <div class="container">
+            <div class="about-img">
+                <img src="./images/profile.jpg" alt="Bucur Andrei">
+            </div>
+            <div class="about-text">
+                <h2>Hello</h2>
+                <p>My name is Andrei, I'm 22 years old and I'm a Frontend Developer (freelancer) studying computer science at Titu Maiorescu University of Bucharest, Romania.</p>
+                <p>I'm developing professional websites for all type of interests(ex:blog, product, landing pages, presentations etc).</p>
+                <p>Do you need a professional and responsive looking website? Go to the contact section below and submit a form!</p>
+            </div>
+        </div>
+        <div>
+            <a href="#services" class="scroll-down"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+        </div>
+        <hr>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <div class="title-heading">
+                    <h2>Services</h2>
+                </div>
+                <div class="service-tiers">
+                    <div class="tier-item">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <h2>Languages used</h2>
+                        <p>HTML, CSS(Bootstrap), JavaScript, Jquery, Angular, Node, (SQL, PHP for backend must scripts)</p>
+                    </div>
+                    <div class="tier-item">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <h2>Responsiveness</h2>
+                        <p>In 2020 you cannot publish a not responsive website anymore, and that's just because everyone has a smarthphone and with that comes the new requirements of the SEO. I can make your website responsive and I got a certificate for doing that.</p>
+                    </div>
+                    <div class="tier-item"><br>
+                        <i class="fa fa-file-code" aria-hidden="true"></i>
+                        <h2>Projects</h2>
+                        <p>Below is a short list of projects that I uploaded.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#projects" class="scroll-down"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+            </div>
+            <hr/>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="title-heading">
+                    <h2 class="title-projects">Projects</h2><br>
+                </div>
+                <div class="tier-item">
+                    <i class="far fa-window-restore"></i>
+                    <h2>Stan Boutique</h2>
+                    <p>A product presentation project for one of my clients.</p><br>
+                    
+                    <a href="https://n3rdz0ne.ro/Stan/index.html" target="_blank" class="boutique"><img src="./images/stan.png" alt="Stan" style="width: 370px; height: 250px;"></a>
+                    <a href="https://n3rdz0ne.ro/Stan/index.html" target="_blank" class="boutique stan">Stan Boutique</a><br>
+                </div><br>
+            </div><br>
+            <div>
+                <a href="#contact" class="scroll-down "><i class="fa fa-chevron-down stan" aria-hidden="true"></i></a>
+            </div>
+            <hr/>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="title-heading">
+                    <h2>Contact</h2>
+                    
+                </div>
+                <i class="far fa-envelope"></i>
+                <div class="tier-item">
+                    <p>Wanna get in touch? Submit a simple contact form!</p>
+                </div>
+                <form class="cf" action="mailto:bucur37@gmail.com" method="GET">
+                    <div class="half left cf"> 
+                      <label for="input-name">Name</label><br>
+                      <input type="text" id="input-name" placeholder="ex: John" required><br>
+                      <label for="input-email">Email</label><br>
+                      <input type="email" id="input-email" placeholder="ex:john@john.com" required><br>
+                      <label for="input-subject">Subject</label><br>
+                      <input type="text" id="input-subject" placeholder="ex:My cat"><br>
+                    </div>
+                    <div class="half right cf">
+                        <label for="input-message">Message</label><br>
+                      <textarea name="message" type="text" id="input-message" placeholder="ex: I need infos" style="width: 200px; height: 200px;" ></textarea><br>
+                    <input type="submit" value="Send" class="btn">
+                    </div>
+                  </form>
+            </div>
+            <hr/>
+        </section>
+    
+    </main>
+    <footer>
+        <p class="copyright">2020 &copy; <a href="#" class="copy"> n3rdz0ne.ro</a> <span> <a href="./CV-BucurAndrei.pdf" class="cv"> My CV is right here!</a></span></p>
+    </footer></div>
+    <script src="./main.js"></script>
+    <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 1500);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script>
+</body>
+</html>
