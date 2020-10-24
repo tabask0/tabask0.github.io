@@ -16,4 +16,4 @@
 > [WorldOfAngular](https://stackblitz.com/edit/angular-ivy-y4rgap)
 
 # Personal website: 
-> [n3rdz0ne](https://n3rdz0ne.ro)
+> [n3rdz0ne.ro](https://n3rdz0ne.ro)
