@@ -11,8 +11,9 @@
 
 
 # My Angular project is present on Stackblitz!
+## This is a character/items system with inventory built in Angular 9
 
-> https://stackblitz.com/edit/angular-ivy-y4rgap
+> [WorldOfAngular](https://stackblitz.com/edit/angular-ivy-y4rgap)
 
 # Personal website: 
 > [n3rdz0ne](https://n3rdz0ne.ro)
