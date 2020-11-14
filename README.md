@@ -19,7 +19,11 @@
 ## Wordpress website project
 > [Wordpress project](https://scoalamionescu.ro/)
 
-# My Angular project is present on Stackblitz!
+#  Angular project is present on Stackblitz!
 ## This is a character/items system with inventory built in Angular 9
 
 > [WorldOfAngular](https://stackblitz.com/edit/angular-ivy-y4rgap)
+
+# Angular Tic-Tac-Toe Project
+## A  simple tic-tac-toe game made in Angular and hosted by Firebase
+> [Tic-Tac-Toe](https://emency-31de2.web.app/)
