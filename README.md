@@ -31,4 +31,4 @@
 # Angular Payment Project
 ## A  simple tic-tac-toe game made in Angular and hosted by Firebase
 > [Payment App](https://payment-preview.firebaseapp.com/)
-## Open the browser console to see the Object created into Firebase
+### Open the browser console to see the Object created into Firebase
