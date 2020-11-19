@@ -1,14 +1,14 @@
 # Hi, my name is Bucur Andrei, I am a Frontend Developer and this is my projects list.
 
 # Personal portfolio/website: 
-> [n3rdz0ne.ro](https://n3rdz0ne.ro)
+> [codiver.ro](https://codiver.ro)
 
 
 ## A simple to-do app with HTML, CSS and Javascript
 > [To-do App](https://tabask0.github.io/TodoApp)
 
 ## A weather app made with Javascript and API
-> [Weather App](https://n3rdz0ne.ro/WeatherApp/)
+> [Weather App](https://codiver.ro/WeatherApp/)
 
 ## A product presentation website for seliing on Amazon 
 > [StanBoutique](https://tabask0.github.io/StanBoutique/)
