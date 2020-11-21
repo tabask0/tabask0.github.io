@@ -29,6 +29,10 @@
 > [Tic-Tac-Toe](https://emency-31de2.web.app/)
 
 # Angular Payment Project
-## A  simple tic-tac-toe game made in Angular and hosted by Firebase
+## Payment processor with firebase made in Angular
 > [Payment App](https://payment-preview.firebaseapp.com/)
 ### Open the browser console to see the Object created into Firebase
+
+# Angular Task Management Project
+## This Angular task management project is inspired by Trello
+> [Task Manager](https://tasks-manager-49c08.web.app/)
