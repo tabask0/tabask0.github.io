@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Codiver - Frontend Developer</title>
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+	<meta name="google-site-verification" content="0bICIA3LoY7FH7zj3ZsmnOpZ6KJapkuIyGqxNiHLWAQ" />
+
+	<style>
+		#loader {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			z-index: 1;
+			width: 150px;
+			height: 150px;
+			margin: -75px 0 0 -75px;
+			border: 16px solid #f3f3f3;
+			border-radius: 50%;
+			border-top: 16px solid #3498db;
+			width: 120px;
+			height: 120px;
+			-webkit-animation: spin 2s linear infinite;
+			animation: spin 2s linear infinite;
+		}
+		
+		@-webkit-keyframes spin {
+			0% { -webkit-transform: rotate(0deg); }
+			100% { -webkit-transform: rotate(360deg); }
+		}
+		
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+		
+		.animate-bottom {
+			position: relative;
+			-webkit-animation-name: animatebottom;
+			-webkit-animation-duration: 1s;
+			animation-name: animatebottom;
+			animation-duration: 1s
+		}
+		
+		@-webkit-keyframes animatebottom {
+			from { bottom:-100px; opacity:0 } 
+			to { bottom:0px; opacity:1 }
+		}
+		
+		@keyframes animatebottom { 
+			from{ bottom:-100px; opacity:0 } 
+			to{ bottom:0; opacity:1 }
+		}
+		
+		#myDiv {
+			display: none;
+			text-align: center;
+		}
+		</style>
+</head>
+<body>
+	<body onload="myFunction()" style="margin:0;">
+
+		<div id="loader"></div>
+		
+		<div style="display:none;" id="myDiv" class="animate-bottom">
+	       <section class="s1">
+		<div class="main-container">
+			<div class="greeting-wrapper">
+				<h1>Hi, I'm</h1>
+				<h1 class="main-message">Andrei Bucur</h1><br>
+				<h1 class="main-message2">Frontend Developer</h1>
+			</div>
+			<br><br>
+			
+			<p>
+				<img src="images/html.png" class="html-pic" alt="html">
+				<img src="images/css.png" class="css-pic" alt="css">
+				<img src="images/js.png" class="js-pic" alt="js">
+				<img src="images/ang.png" class="ang-pic" alt="angular">
+				<img src="images/node.png" class="node-pic" alt="nodejs">
+				<img src="images/boot.png" class="boot-pic" alt="bootstrap">
+			</p>
+			
+
+			<div class="intro-wrapper">
+				<div class="nav-wrapper">
+
+
+					<a href="index.html">
+						<div class="dots-wrapper">
+							<div id="dot-1" class="browser-dot"></div>
+							<div id="dot-2" class="browser-dot"></div>
+							<div id="dot-3" class="browser-dot"></div>
+						</div>
+					</a>
+					
+
+					<ul id="navigation">
+						<li><a href="index.html#contact">Contact</a></li>
+
+					</ul>
+				</div>
+
+				<div class="left-column">
+					<img id="profile_pic" src="images/0.jpg">
+					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+					<div id="theme-options-wrapper">
+						<div data-mode="light" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+					</div>
+
+					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
+				</div>
+
+				<div class="right-column">
+
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+							<h3>Who I am</h3>
+							<p>I am a Frontend Developer, I am 23 years old and I live in Bucharest, Romania.</p>
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="s2">
+		<div class="main-container">
+
+			<div class="about-wrapper">
+				<div class="about-me">
+					<h4>More about me</h4>
+
+					<p>I am studying Computer Science at Titu Maiorescu University of Bucharest</p>
+
+					<p>I like web frameworks like Angular and React.</p>
+
+
+					<hr>
+
+					<h4>My Exerience</h4>
+
+					<p>This is my detailed resume: <a target="_blank" href="resume.pdf">Open Resume</a></p>
+					
+					<div id="skills">
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Angular CLI</li>
+							<li>Node</li>
+							<li>Photoshop</li>
+						</ul>
+
+						<ul>
+							<li>MongoDB</li>
+							<li>Typescript</li>
+							<li>Api</li>
+							<li>Jquery</li>
+							<li>Vue.js</li>
+							<li>Wordpress</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+				
+				<div class="social-links">
+					<img id="social_img" src="images/follow.png">
+					<h3>You can find me on Linked<a target="_blank" href="https://www.linkedin.com/in/andrei-bucur-258ab2182/"><i class="fab fa-linkedin"></i></a>  and Github <a target="_blank" href="https://github.com/tabask0/tabask0.github.io"><i class="fab fa-github-square"></i></a>
+					</h3>
+
+					<br>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="s1">
+		<div class="main-container">
+			<h3 style="text-align: center;">Some of my past projects</h3>
+
+			<div class="post-wrapper">
+
+				<div>
+					<div class="post">
+						<a href="todo.html"><img class="thumbnail" src="images/todo.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">To-do Javascript App</h6>
+							<p class="post-intro">A simple to-do list app made in Javascript(mostly).</p>
+							<a href="todo.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<a href="stan.html"><img class="thumbnail" src="images/stan.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Stan Boutique</h6>
+							<p class="post-intro">A presentation website for product selling on Amazon.</p>
+							<a href="stan.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<a href="angular.html"><img class="thumbnail" src="images/angular.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Angular App</h6>
+							<p class="post-intro">A character/item game system with inventory.</p>
+							<a href="angular.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="post">
+						<a href="weather.html"><img class="thumbnail" src="images/weather.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Weather App</h6>
+							<p class="post-intro">A weather app made with Javascript and API</p>
+							<a href="weather.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="post">
+						<a href="wordpress.html"><img class="thumbnail" src="images/wordpress.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Wordpress Highscool Website</h6>
+							<p class="post-intro">A website made with Wordpress for a Highschool.</p>
+							<a href="wordpress.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="post">
+						<a href="payment.html"><img class="thumbnail" src="images/payments.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Angular Payment app</h6>
+							<p class="post-intro">Angular Payment app with Firebase database.</p>
+							<a href="payment.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="post">
+						<a href="tictac.html"><img class="thumbnail" src="images/tictac.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Tic-Tac-Toe Game</h6>
+							<p class="post-intro">A simple game made with Angular and Nebular.</p>
+							<a href="tictac.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="post">
+						<a href="kanban.html"><img class="thumbnail" src="images/kanban.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Kanban Board</h6>
+							<p class="post-intro">A Kanban board inspired by<a href="https://trello.com"> trello.com</a></p>
+							<a href="kanban.html">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="s2">
+		<div class="main-container">
+			<a href=""></a>
+			<h3 style="text-align: center;">Get In Touch</h3>
+
+			<form id="contact-form">
+				<a name="contact"></a>
+
+				<label for="name">Name</label>
+				<input class="input-field" type="text" name="name" placeholder="ex: John">
+
+				<label for="subject">Subject</label>
+				<input class="input-field" type="text" name="subject" placeholder="ex: My cat">
+
+				<label for="email">Email</label>
+				<input class="input-field" type="email" name="email" placeholder="ex: john@mycat.com">
+
+				<label for="message">Message</label>
+				<textarea class="input-field" name="message" placeholder="ex: I am contacting you about a job offer"></textarea>
+
+				<input id="submit-btn" type="submit" value="Submit">
+			</form>
+		</div>
+	</section> 
+	<section class="s1">
+		<div>
+			<h4 class="copyright" style="font-weight: 300;">2020 &copy; Andrei Bucur</h4>
+			<div class="contact-mail">
+		 <h4>Contact: admin@codiver.ro</h4>
+		</div>
+		</div>
+	</section>
+		</div>
+	<script type="text/javascript" src="script.js"></script>
+	<script>
+		var myVar;
+		
+		function myFunction() {
+			myVar = setTimeout(showPage, 1000);
+		}
+		
+		function showPage() {
+			document.getElementById("loader").style.display = "none";
+			document.getElementById("myDiv").style.display = "block";
+		}
+		</script>
+</body>
+</html>
